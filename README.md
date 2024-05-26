@@ -99,6 +99,9 @@ A collection of my computer network experiment reports.
 * [Lab26: Domain Name System](Lab26_Domain_Name_System.pdf)
 实验26：DNS实验
 
+* [Lab27: Networking Technology](Lab27_Networking_Technology.pdf)
+实验27：组网技术实验
+
 ## 文档更新日期
 
-2024年5月24日
+2024年5月27日
