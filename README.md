@@ -15,12 +15,6 @@ A collection of my computer network experiment reports.
 
 ## 仓库组成
 
-* [Collection of Computer Network Experiment Reports](Collection_of_Computer_Network_Experiment_Reports.docx)
-计算机网络实验报告合集（ `.docx` 文件）
-
-* [Collection of Computer Network Experiment Reports](Collection_of_Computer_Network_Experiment_Reports.pdf)
-计算机网络实验报告合集（ `.pdf` 文件）
-
 * [Lab01: Network Related Processes and Services](Lab01_Network_Related_Processes_and_Services.pdf)
 实验01：网络相关进程与服务实验
 
@@ -107,4 +101,4 @@ A collection of my computer network experiment reports.
 
 ## 文档更新日期
 
-2024年5月30日
+2024年6月4日
