@@ -15,6 +15,9 @@ A collection of my computer network experiment reports.
 
 ## 仓库组成
 
+* [Final Lab: Campus Network Simulation](FinalLab_Campus_Network_Simulation)
+综合实验：基于 Packet Tracer 的校园网仿真模拟实验
+
 * [Lab01: Network Related Processes and Services](Lab01_Network_Related_Processes_and_Services.pdf)
 实验01：网络相关进程与服务实验
 
@@ -101,4 +104,4 @@ A collection of my computer network experiment reports.
 
 ## 文档更新日期
 
-2024年6月4日
+2024年6月6日
