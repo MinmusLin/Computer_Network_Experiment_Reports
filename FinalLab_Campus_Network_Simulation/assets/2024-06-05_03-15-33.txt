@@ -1,0 +1,46 @@
+enable
+configure terminal
+interface Vlan2
+ip address 192.168.0.1 255.255.255.0
+no shutdown
+exit
+interface Vlan3
+ip address 192.168.100.1 255.255.255.0
+no shutdown
+exit
+interface Vlan11
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+exit
+interface Vlan12
+ip address 192.168.2.1 255.255.255.0
+no shutdown
+exit
+interface Vlan13
+ip address 192.168.3.1 255.255.255.0
+no shutdown
+exit
+interface Vlan21
+ip address 192.168.11.1 255.255.255.0
+no shutdown
+exit
+interface Vlan22
+ip address 192.168.12.1 255.255.255.0
+no shutdown
+exit
+interface Vlan23
+ip address 192.168.13.1 255.255.255.0
+no shutdown
+exit
+interface Vlan31
+ip address 192.168.21.1 255.255.255.0
+no shutdown
+exit
+interface Vlan32
+ip address 192.168.22.1 255.255.255.0
+no shutdown
+exit
+interface Vlan33
+ip address 192.168.23.1 255.255.255.0
+no shutdown
+exit

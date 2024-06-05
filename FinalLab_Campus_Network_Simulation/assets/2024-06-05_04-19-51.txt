@@ -1,0 +1,28 @@
+int vlan 11
+ip helper-address 192.168.0.2
+exit
+int vlan 12
+ip helper-address 192.168.0.2
+exit
+int vlan 13
+ip helper-address 192.168.0.2
+exit
+int vlan 21
+ip helper-address 192.168.0.2
+exit
+int vlan 22
+ip helper-address 192.168.0.2
+exit
+int vlan 23
+ip helper-address 192.168.0.2
+exit
+int vlan 31
+ip helper-address 192.168.0.2
+exit
+int vlan 32
+ip helper-address 192.168.0.2
+exit
+int vlan 33
+ip helper-address 192.168.0.2
+exit
+ip routing

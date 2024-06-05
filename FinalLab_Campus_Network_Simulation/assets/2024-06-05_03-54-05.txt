@@ -1,0 +1,72 @@
+access-list 111 permit ip 192.168.3.0 0.0.0.255 192.168.1.0 0.0.0.255
+access-list 111 permit ip 192.168.0.0 0.0.0.255 192.168.1.0 0.0.0.255
+access-list 111 deny ip 192.168.0.0 0.0.255.255 192.168.1.0 0.0.0.255
+access-list 111 permit ip any any
+int vlan 11
+ip access-group 111 in
+ip access-group 111 out
+exit
+access-list 112 permit ip 192.168.3.0 0.0.0.255 192.168.2.0 0.0.0.255
+access-list 112 permit ip 192.168.0.0 0.0.0.255 192.168.2.0 0.0.0.255
+access-list 112 deny ip 192.168.0.0 0.0.255.255 192.168.2.0 0.0.0.255
+access-list 112 permit ip any any
+int vlan 12
+ip access-group 112 in
+ip access-group 112 out
+exit
+access-list 113 permit ip 192.168.1.0 0.0.0.255 192.168.3.0 0.0.0.255
+access-list 113 permit ip 192.168.2.0 0.0.0.255 192.168.3.0 0.0.0.255
+access-list 113 deny ip 192.168.0.0 0.0.255.255 192.168.3.0 0.0.0.255
+access-list 113 permit ip any any
+int vlan 13
+ip access-group 113 in
+ip access-group 113 out
+exit
+access-list 121 permit ip 192.168.13.0 0.0.0.255 192.168.11.0 0.0.0.255
+access-list 121 permit ip 192.168.0.0 0.0.0.255 192.168.11.0 0.0.0.255
+access-list 121 deny ip 192.168.0.0 0.0.255.255 192.168.11.0 0.0.0.255
+access-list 121 permit ip any any
+int vlan 21
+ip access-group 121 in
+ip access-group 121 out
+exit
+access-list 122 permit ip 192.168.13.0 0.0.0.255 192.168.12.0 0.0.0.255
+access-list 122 permit ip 192.168.0.0 0.0.0.255 192.168.12.0 0.0.0.255
+access-list 122 deny ip 192.168.0.0 0.0.255.255 192.168.12.0 0.0.0.255
+access-list 122 permit ip any any
+int vlan 22
+ip access-group 122 in
+ip access-group 122 out
+exit
+access-list 123 permit ip 192.168.11.0 0.0.0.255 192.168.13.0 0.0.0.255
+access-list 123 permit ip 192.168.12.0 0.0.0.255 192.168.13.0 0.0.0.255
+access-list 123 deny ip 192.168.0.0 0.0.255.255 192.168.13.0 0.0.0.255
+access-list 123 permit ip any any
+int vlan 23
+ip access-group 123 in
+ip access-group 123 out
+exit
+access-list 131 permit ip 192.168.23.0 0.0.0.255 192.168.21.0 0.0.0.255
+access-list 131 permit ip 192.168.0.0 0.0.0.255 192.168.21.0 0.0.0.255
+access-list 131 deny ip 192.168.0.0 0.0.255.255 192.168.21.0 0.0.0.255
+access-list 131 permit ip any any
+int vlan 31
+ip access-group 131 in
+ip access-group 131 out
+exit
+access-list 132 permit ip 192.168.23.0 0.0.0.255 192.168.22.0 0.0.0.255
+access-list 132 permit ip 192.168.0.0 0.0.0.255 192.168.22.0 0.0.0.255
+access-list 132 deny ip 192.168.0.0 0.0.255.255 192.168.22.0 0.0.0.255
+access-list 132 permit ip any any
+int vlan 32
+ip access-group 132 in
+ip access-group 132 out
+exit
+access-list 133 permit ip 192.168.21.0 0.0.0.255 192.168.23.0 0.0.0.255
+access-list 133 permit ip 192.168.22.0 0.0.0.255 192.168.23.0 0.0.0.255
+access-list 133 deny ip 192.168.0.0 0.0.255.255 192.168.23.0 0.0.0.255
+access-list 133 permit ip any any
+int vlan 33
+ip access-group 133 in
+ip access-group 133 out
+exit
