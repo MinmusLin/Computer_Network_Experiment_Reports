@@ -6,9 +6,9 @@ Computer_Network_Experiment_Reports
 
 ## 仓库简介
 
-A collection of my computer network experiment reports.
+A collection of my computer network experiment reports, and final lab: campus network simulation.
 
-2024年同济大学计算机网络实验报告合集。
+2024年同济大学计算机网络实验报告合集，以及综合实验：基于 Packet Tracer 的校园网仿真模拟实验。
 
 > ***Relevant course***
 > * Computer Network Experiment 2024 (2024年同济大学计算机网络实验)
